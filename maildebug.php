@@ -14,7 +14,7 @@ class PlgSystemMaildebug extends CMSPlugin
         // Active le debug SMTP
         $mailer->SMTPDebug = 4; // Niveau max : logs détaillés
         $mailer->Debugoutput = function($str, $level) {
-            file_put_contents('D:\Logs\Joomla\Curaio\logs\smtp_debug.log', $str . PHP_EOL, FILE_APPEND);
+            file_put_contents('D:\Logs\Joomla\Curaio\smtp_debug.log', $str . PHP_EOL, FILE_APPEND);
         };
     }
 }
