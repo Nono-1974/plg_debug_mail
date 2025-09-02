@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="system" method="upgrade">
-    <name>plg_system_maildebug</name>
+    <name>Debug SMTP mailer</name>
     <version>1.0.0</version>
     <author>Arnaud D</author>
     <creationDate>2025-08-30</creationDate>
