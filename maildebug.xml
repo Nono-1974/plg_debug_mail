@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>plg_system_maildebug</name>
+    <version>1.0.0</version>
+    <author>Arnaud D</author>
+    <createDate>
+    <description>Debug SMTP mailer</description>
+    <files>
+        <filename plugin="maildebug">maildebug.php</filename>
+    </files>
+</extension>
