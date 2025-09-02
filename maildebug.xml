@@ -3,7 +3,7 @@
     <name>plg_system_maildebug</name>
     <version>1.0.0</version>
     <author>Arnaud D</author>
-    <createDate>
+    <creationDate>2025-08-30</creationDate>
     <description>Debug SMTP mailer</description>
     <files>
         <filename plugin="maildebug">maildebug.php</filename>
